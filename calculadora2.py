@@ -8,7 +8,7 @@ class calculadora2:
      def _mostrar_operacion(self):
          return f"{self.operacion}: {self.a} y {self.b} = {self._resultado}"
      def mostrar_operaciones(self):
-         return f"{self._sumar()}\n{self._resta()}\n{self._multiplicacion()}\n{self._division()}\n"
+         return f"\n{self._sumar()}\n{self._resta()}\n{self._multiplicacion()}\n{self._division()}\n"
      
      def _sumar(self):
          self.operacion = "Suma"
@@ -28,7 +28,10 @@ class calculadora2:
          return self._mostrar_operacion()
 
 calculadora1 = calculadora2(25, 5)
+calculadora2 = calculadora2(25, 5)
+
 print(calculadora1.mostrar_operaciones())
+print(calculadora2.mostrar_operaciones())
      
      
         
