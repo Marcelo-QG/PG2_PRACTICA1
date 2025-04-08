@@ -39,6 +39,8 @@ print(f"150 ÷ 6 = {calculadora_1.dividir(150, 6)}")    # ➡️ 25.0
 from calculadora_poo import CalculadoraFactorial
 
 # Cálculo de factorial
+```Python
 calculadora_factorial = CalculadoraFactorial(numero=5)
 print(f"5! = {calculadora_factorial.calcular()}")  # ➡️ 120
+```
 
