@@ -21,26 +21,34 @@ Del mismo modo, se implementa una **Calculadora de Factorial** que aplica princi
 
 ##Implementacion de la calculadora
 
-from calculadora_poo import Calculadora
+```Python
+
+from calculadora_poo import calculadora2
 
 # Instanciación
-calculadora_1 = Calculadora()
+
+calc = calculadora2()
 
 # Operaciones básicas
-print(f"2 + 5 = {calculadora_1.sumar(2, 5)}")          # ➡️ 7
-print(f"10 - 9 = {calculadora_1.restar(10, 9)}")       # ➡️ 1 
-print(f"5 × 9 = {calculadora_1.multiplicar(5, 9)}")    # ➡️ 45
-print(f"150 ÷ 6 = {calculadora_1.dividir(150, 6)}")    # ➡️ 25.0
+print(calc._sumar(10, 5))
+print(calc._resta(10, 5))
+print(calc._multiplicacion(10, 5))
+print(calc._division(10, 5))
+
+```
 
 ---
 
 #Implementacion de la Calculadora Factorial
 
-from calculadora_poo import CalculadoraFactorial
+```Python
+
+from Factorial import CalculadoraCientifica
 
 # Cálculo de factorial
-```Python
-calculadora_factorial = CalculadoraFactorial(numero=5)
-print(f"5! = {calculadora_factorial.calcular()}")  # ➡️ 120
+
+calcF = CalculadoraCientifica(5)
+print(calcF.calcular())
+
 ```
 
