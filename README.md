@@ -1,5 +1,5 @@
 # PG2_PRACTICA1
-# **Practica_1  calculadora en Python**
+# **Practica_1 Calculadora en Python**
 
 En esta práctica se implementa una **Calculadora en Python** que permite realizar operaciones aritmeticas basicas como:
 
@@ -17,9 +17,20 @@ Del mismo modo, se implementa una **Calculadora de Factorial** que aplica princi
 
 ## Preparacion del entorno
 
+Pasos a realizar:
+
+1.Clonar el repositorio
+
+```
+git clone https://github.com/Marcelo-QG/PG2_PRACTICA1.git
+cd PG2_PRACTICA1 
+``` 
+
 ---
 
 ## Implementacion de la calculadora
+
+Este módulo implementa una calculadora estándar con operaciones básicas:
 
 ```Python
 
@@ -42,6 +53,8 @@ print(calc._division(10, 5))
 
 # Implementacion de la Calculadora Factorial
 
+Este módulo extiende la funcionalidad mediante herencia:
+
 ```Python
 
 from Factorial import CalculadoraCientifica
@@ -52,4 +65,5 @@ calcF = CalculadoraCientifica(5)
 print(calcF.calcular())
 
 ```
+
 
