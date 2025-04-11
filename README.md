@@ -19,12 +19,39 @@ Del mismo modo, se implementa una **Calculadora de Factorial** que aplica princi
 
 Pasos a realizar:
 
-1.Clonar el repositorio
+1. Clonar el repositorio
 
 ```
 git clone https://github.com/Marcelo-QG/PG2_PRACTICA1.git
 cd PG2_PRACTICA1 
 ``` 
+
+2. Crear un entorno virtual
+
+```
+python -m venv venv
+```
+
+3. Activar el entorno virtual
+
+- Windows:
+
+```
+.\venv\Scripts\activate
+```
+
+4. Ejecutar el script:
+
+```
+python main.py
+```
+
+5. Desactivar el entorno virtual:
+ 
+```
+deactivate
+```
+
 
 ---
 
