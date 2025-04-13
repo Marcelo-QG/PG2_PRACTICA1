@@ -52,6 +52,13 @@ python main.py
 deactivate
 ```
 
+## Lincencia
+
+Se uso la lincecia Apache
+
+```
+http://www.apache.org/licenses/
+```
 
 ---
 
